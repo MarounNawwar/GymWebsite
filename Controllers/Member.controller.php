@@ -108,7 +108,7 @@ if(isset($_GET['token'])&&!empty($_GET['token'])
 
 }
 
-//Catch the request  for sending the password
+//Catch the request for sending the password
 if(isset($_POST['password'])&&isset($_POST['passwordConfirmation'])
     &&!empty($_POST['password'])&&!empty($_POST['passwordConfirmation'])
     &&isset($_POST['mail'])&&!empty($_POST['mail'])){
